@@ -11,10 +11,12 @@ module.exports = {
       'pink' : '#e83e8c',
       'gray-dark':'#343a40',
       'black-layout' : 'rgba(3, 3, 14, 0.85)',
+      'green-pastel' : '#34C5B8',
+      'purple-pastel': '#5668F8', 
+      
     }),
     backgroundImage: theme => ({ 
       'working-layout' : "url('./media/working-layout.jpg')",
-   
     }),
     fontFamily:{
       'title':['Poppins, sans-serif'], 

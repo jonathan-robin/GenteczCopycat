@@ -23,7 +23,7 @@ function HomePage() {
         </div>
 
         <div class='relative h-96 flex justify-center'>
-            <div class='absolute w-20 top-20 p-4 bg-light-red rounded-full'>
+            <div class='absolute w-20 top-20 p-4 bg-lightest-red rounded-full'>
                 <img src={home} style={{filter:'invert(100%) sepia(0%) saturate(2%) hue-rotate(329deg) brightness(111%) contrast(101%)'}}/>
             </div>
             <div class='absolute w-86 font-medium top-44 text-black font-title text-3xl'>What Can We Do <div class='inline text-red-light'>For You</div></div>
