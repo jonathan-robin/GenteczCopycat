@@ -34,6 +34,9 @@ function Cards() {
                 <div class='m-auto p-4 rounded-full mt-1 bg-white w-14'><img src={fleche} class='w-12 m-auto' style={{filter:'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}}/>
                 </div>
             </div>
+            <div class='flex justify-center'>
+            <button class='mt-12 bg-light-red hover:bg-red px-9 py-3 font-light text-white text-md mb-24'>VIEW ALL SERVICES</button>
+            </div>
         </div>
     )
 }

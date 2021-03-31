@@ -29,8 +29,6 @@ function Services() {
                 </div>
                 <button class=' mt-6 bg-light-red hover:bg-red px-9 py-3 font-light text-white text-md'>USE CASES</button>
             </div>
-
-
         </div>
 
     )

@@ -14,12 +14,12 @@ import screen from '../media/about_buss.png';
 function HomePage() {
     return (
         <>
-        <div class='h-96 relative'>
-            <div class='bg-fond static bg-cover h-96' style={{backgroundImage: `url(${homeImage2})`}}></div>
-            <div class='text-white absolute font-medium font-title top-20 left-4 text-2xl'>We are Creative & Digital Agency .</div>
-            <div class='text-gray-200 leading-1 absolute font-light font-sans top-32 left-4 text-1xl mr-4'>It is a long established fact that a reader will be distracted by the readable content of a page 
+        <div class='h-96 bg-red overflow-hidden'>
+            <div class='bg-fond static bg-cover h-3/6 overflow-hidden absolute top-0 left-0 w-full' style={{backgroundImage: `url(${homeImage2})`}}></div>
+            <div class='text-white absolute font-medium font-title top-32 left-4 text-2xl'>We are Creative & Digital Agency .</div>
+            <div class='text-gray-200 leading-1 absolute font-light font-sans top-44 left-4 text-1xl mr-4'>It is a long established fact that a reader will be distracted by the readable content of a page 
             when looking at its layout readable English.</div> 
-            <button class='bg-light-red py-3 px-8 rounded-3xl text-white font-sans top-60 left-4 absolute text-sm hover:bg-red'>GET STARTED</button>   
+            <button class='bg-light-red py-3 px-8 rounded-3xl text-white font-sans top-72 left-4 absolute text-sm hover:bg-red'>GET STARTED</button>   
         </div>
 
         <div class='relative h-96 flex justify-center'>
