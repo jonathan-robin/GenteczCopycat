@@ -72,7 +72,7 @@ function Video() {
 
             <div class='relative w-100 mx-4 border border-dotted border-gray border-w-4 px-6 py-8 h-60 mb-4'>
                 <div class='inline w-100 px-2 font-light mr-4 text-black font-title text-2xl'>
-                    <img src={checked} style={{filter: 'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}} class=' inline mr-4 h-6 w-6'/>
+                    <img src={checked} style={{filter: 'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}} class=' inline mr-4 h-4 w-4'/>
                     Automatic Payout
                 </div>
                 <div class='w-100 mt-3 mb-4 ml-10 px-2 font-light mr-4 text-gray-400 font-sans text-md'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using has normal distribution.
@@ -93,7 +93,7 @@ function Video() {
                 <img src={fleche} style={{filter: 'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}} class='inline h-3 ml-2'/>
                 </div>
             </div>
-
+            <button class=' mt-4 bg-light-red hover:bg-red px-9 py-3 font-light text-white text-md ml-12'>VIEW MORE FEATURES</button>
             </>
     )
 }

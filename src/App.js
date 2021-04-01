@@ -9,6 +9,10 @@ import StayTune from './components/StayTune';
 import Portfolio from './components/Portfolio';
 import Caroussel from './components/Caroussel';
 import Video from './components/Video';
+import Avis from './components/Avis';
+import Choose from './components/Choose';
+import Creative from './components/Creative';
+import Pricing from './components/Pricing';
 
 function App() {
   return (
@@ -27,6 +31,10 @@ function App() {
           <Caroussel />
         </div>
         <Video />
+        <Avis />
+        <Choose />
+        <div class="bg-white"><Creative /></div>
+        <Pricing />
     </>
   );
 }

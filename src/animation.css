@@ -1,0 +1,162 @@
+.oneAnimation{ 
+    animation:glisse 16s infinite;
+}
+.animationOne{
+    animation:glisse1 1s;
+}
+#radio1:checked ~ #testimonial .oneAnimation{
+    animation:glisse 16s infinite;
+}
+input{display:none;}
+#radio2:checked ~ #testimonial .oneAnimation{
+    animation:none;
+    animation: glisseTo2 2s ease-in-out;
+    transform:translateX(-100vw);
+    animation:glisse4 16s infinite;
+}
+#radio3:checked ~ #testimonial .oneAnimation{
+    animation:none;
+    transform:translateX(-200vw);
+    transition:transform 2s ease-in-out;
+    animation:glisse3 16s infinite;
+}
+@keyframes glisse3 { 
+    0%{
+        transform:translateX(-200vw); 
+    }
+    10%{
+        transform:translateX(-200vw); 
+    }
+    20%{
+        transform:translateX(-200vw); 
+    }
+    33%{
+        transform:translateX(0); 
+    }
+    40%{
+        transform:translateX(0); 
+    }
+    50%{
+        transform:translateX(0); 
+    }
+    66%{
+        transform:translateX(-100vw); 
+    }
+    70%{
+        transform:translateX(-100vw); 
+    }
+    80%{
+        transform:translateX(-100vw); 
+    }
+    90%{
+        transform:translateX(-100vw); 
+    }
+    100%{
+        transform:translateX(-200vw); 
+    }
+}
+@keyframes glisse4 { 
+    0%{
+        transform:translateX(-100vw); 
+    }
+    10%{
+        transform:translateX(-100vw); 
+    }
+    20%{
+        transform:translateX(-100vw); 
+    }
+    33%{
+        transform:translateX(-200vw); 
+    }
+    40%{
+        transform:translateX(-200vw); 
+    }
+    50%{
+        transform:translateX(-200vw); 
+    }
+    66%{
+        transform:translateX(0); 
+    }
+    70%{
+        transform:translateX(0); 
+    }
+    80%{
+        transform:translateX(0); 
+    }
+    90%{
+        transform:translateX(0); 
+    }
+    100%{
+        transform:translateX(-100vw); 
+    }
+}
+@keyframes glisse {
+    0%{
+        transform:translateX(0); 
+    }
+    10%{
+        transform:translateX(0); 
+    }
+    20%{
+        transform:translateX(0); 
+    }
+    33%{
+        transform:translateX(-100vw); 
+    }
+    40%{
+        transform:translateX(-100vw); 
+    }
+    50%{
+        transform:translateX(-100vw); 
+    }
+    66%{
+        transform:translateX(-200vw); 
+    }
+    70%{
+        transform:translateX(-200vw); 
+    }
+    80%{
+        transform:translateX(-200vw); 
+    }
+    90%{
+        transform:translateX(-200vw); 
+    }
+    100%{
+        transform:translateX(0); 
+    }
+}
+@keyframes glisse {
+    0%{
+        transform:translateX(0); 
+    }
+    10%{
+        transform:translateX(0); 
+    }
+    20%{
+        transform:translateX(0); 
+    }
+    33%{
+        transform:translateX(-100vw); 
+    }
+    40%{
+        transform:translateX(-100vw); 
+    }
+    50%{
+        transform:translateX(-100vw); 
+    }
+    66%{
+        transform:translateX(-200vw); 
+    }
+    70%{
+        transform:translateX(-200vw); 
+    }
+    80%{
+        transform:translateX(-200vw); 
+    }
+    90%{
+        transform:translateX(-200vw); 
+    }
+    100%{
+        transform:translateX(0); 
+    }
+}
