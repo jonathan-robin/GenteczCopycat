@@ -7,6 +7,8 @@ import Services from './components/Services.js';
 import Cards from './components/Cards.js'; 
 import StayTune from './components/StayTune';
 import Portfolio from './components/Portfolio';
+import Caroussel from './components/Caroussel';
+import Video from './components/Video';
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
         <StayTune />
         <div class='bg-white'>
           <Portfolio />
+          <Caroussel />
         </div>
+        <Video />
     </>
   );
 }
