@@ -21,6 +21,28 @@
     animation:glisse3 16s infinite;
 }
 
+.anim{ 
+    animation:animNav 2s forwards;
+}
+.unAnim{ 
+    animation:unAnimNav 2s forwards;
+}
+@keyframes animNav{
+    from{
+        background-color:white;
+    }
+    to{
+        background-color:transparent;
+    }
+}  @keyframes unAnimNav{
+    from{
+        background-color:transparent;
+    }
+    to{
+        background-color:white;
+    }
+}
+
 @property --num {
     syntax: "<integer>";
     initial-value: 0;
@@ -54,7 +76,8 @@
       --num: 654;
     }
   }
-  
+
+
   @keyframes counter2{
     from {
       --num: 0;

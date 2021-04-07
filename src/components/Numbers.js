@@ -10,7 +10,7 @@ function Numbers() {
         <div class='bg-fixed bg-working-layout bg-no-repeat bg-center max-w-screen'>
              <div class='bg-black-layout top-0 right-0  max-w-screen'>
             
-            <div class='pt-20 pb-6'>
+            <div class='pt-20 pb-6 max-w-lg mx-auto'>
 
             <div class='h-44 bg-white pb-8 mx-4 rounded shadow-lg pt-4 mb-3'>
                          <img src={alarm} class='h-16 p-4 mx-auto' style={{filter:'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}}/>

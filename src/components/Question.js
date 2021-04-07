@@ -8,7 +8,7 @@ function Question() {
                  <div class='max-w-full'>
                 <div class='bg-fixed bg-writing-layout bg-no-repeat bg-center h-96 max-w-screen'>
                      <div class='bg-black-layout top-0 right-0 h-96 max-w-screen'>
-                    <div class='pt-16 mx-5'>
+                    <div class='pt-16 mx-auto max-w-lg'>
                          <div class='text-white text-3xl text-center font-light font-title'>We are always with you to make your project Success</div>
                          <div class='mt-8 font-sans text-white text-sm text-center'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
                          <button class='mt-8 m-auto flex bg-light-red py-3 font-bold px-8 rounded-3xl text-white font-sans'>CALL (918-375-2675)</button>
@@ -17,6 +17,7 @@ function Question() {
                 </div>
             </div>
 
+<div class="max-w-lg mx-auto">
             <div class='mx-5 mb-14 pt-12'>
                 <div class=' m-auto rounded-full w-20 bg-lightest-red mb-4'>
                     <img class='w-24 p-5' src={calendar} style={{filter:'invert(100%) sepia(0%) saturate(2%) hue-rotate(329deg) brightness(111%) contrast(101%)'}}/>
@@ -48,7 +49,7 @@ function Question() {
                     <input class='mx-4 w-11/12 p-2 rounded my-4 border' type="text" id="fname" name="fname" placeholder='Your Message...'/>
                     <button class=' mt-4 bg-light-red hover:bg-red px-9 py-3 font-semibold text-white text-sm ml-4'>SEND MESSAGE</button>
             </form>
-
+            </div>
         </div>
     )
 }

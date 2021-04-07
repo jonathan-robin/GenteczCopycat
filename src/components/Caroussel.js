@@ -76,9 +76,9 @@ function Caroussel() {
 
     return (
         <div class='pt-16 mx-5 pb-16'>
-            <div id='hover-photo-1' class='z-50 mb-5 rounded-md overflow-hidden max-h-screen'>
-                <div class='bg-photo-1 bg-center bg-no-repeat bg-cover max-h-screen max-w-screen transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
-                    <div class="transition duration-300 ease-in-out background hover:bg-light-black-layout top-0 right-0 h-96 max-w-screen rounded-md">
+            <div id='hover-photo-1' class='mx-auto z-50 mb-5 rounded-md overflow-hidden max-w-xl'>
+                <div class='bg-photo-1 bg-center mx-auto max-w-xl bg-no-repeat bg-cover transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
+                    <div class="transition duration-300 ease-in-out background mx-auto  hover:bg-light-black-layout top-0 right-0 max-w-xl rounded-md">
                         <div id='text-photo-1' class='pt-48 h-96 invisible'>
                             <div class='text-white text-center font-semibold text-gray-300 font-sans'>Creative & Art</div>
                             <div class='font-title text-white text-2xl text-center'>Technology</div>
@@ -86,9 +86,9 @@ function Caroussel() {
                     </div>
                 </div>
             </div>
-            <div id='hover-photo-2' class='z-50 mb-5 rounded-md overflow-hidden max-h-screen'>
-                <div class='bg-photo-2 bg-center bg-no-repeat bg-cover max-h-screen max-w-screen transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
-                    <div class="transition duration-300 ease-in-out background hover:bg-light-black-layout top-0 right-0 h-96 max-w-screen rounded-md">
+            <div id='hover-photo-2' class='z-50 mb-5 rounded-md overflow-hidden mx-auto max-w-xl '>
+                <div class='bg-photo-2 bg-center bg-no-repeat bg-cover mx-auto max-w-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
+                    <div class="transition duration-300 ease-in-out background hover:bg-light-black-layout top-0 right-0 h-96 mx-auto max-w-xl rounded-md">
                         <div id='text-photo-2' class='pt-48 h-96 invisible'>
                             <div class='text-white text-center font-semibold text-gray-300 font-sans'>Studio & Art</div>
                             <div class='font-title text-white text-2xl text-center'>Bubble</div>
@@ -96,9 +96,9 @@ function Caroussel() {
                     </div>
                 </div>
             </div>
-            <div id='hover-photo-3' class='z-50 mb-5 rounded-md overflow-hidden max-h-screen'>
-                <div class='bg-photo-3 bg-center bg-no-repeat bg-cover max-h-screen max-w-screen transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
-                    <div class="transition duration-300 ease-in-out background hover:bg-light-black-layout top-0 right-0 h-96 max-w-screen rounded-md">
+            <div id='hover-photo-3' class='z-50 mb-5 rounded-md overflow-hidden mx-auto max-w-xl '>
+                <div class='bg-photo-3 bg-center bg-no-repeat bg-cover mx-auto max-w-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
+                    <div class="transition duration-300 ease-in-out background hover:bg-light-black-layout top-0 right-0 mx-auto max-w-xl rounded-md">
                         <div id='text-photo-3' class='pt-48 h-96 invisible'>
                             <div class='text-white text-center font-semibold text-gray-300 font-sans'>Creative & Art</div>
                             <div class='font-title text-white text-2xl text-center'>Into blue</div>
@@ -106,9 +106,9 @@ function Caroussel() {
                     </div>
                 </div>
             </div>
-            <div id='hover-photo-4' class='z-50 mb-5 rounded-md overflow-hidden max-h-screen'>
-                <div class='bg-photo-4 bg-center bg-no-repeat bg-cover max-h-screen max-w-screen transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
-                    <div class="transition duration-300 ease-in-out background hover:bg-light-black-layout top-0 right-0 h-96 max-w-screen rounded-md">
+            <div id='hover-photo-4' class='z-50 mb-5 rounded-md overflow-hidden mx-auto max-w-xl '>
+                <div class='bg-photo-4 bg-center bg-no-repeat bg-cover  mx-auto max-w-xl  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
+                    <div class="transition duration-300 ease-in-out background hover:bg-light-black-layout top-0 right-0 mx-auto max-w-xl rounded-md">
                         <div id='text-photo-4' class='pt-48 h-96 invisible'>
                             <div class='text-white text-center font-semibold text-gray-300 font-sans'>Studio & Art</div>
                             <div class='font-title text-white text-2xl text-center'>Creativity</div>
@@ -116,9 +116,9 @@ function Caroussel() {
                     </div>
                 </div>
             </div>
-            <div id='hover-photo-5' class='z-50 mb-5 rounded-md overflow-hidden max-h-screen'>
-                <div class='bg-photo-5 bg-center bg-no-repeat bg-cover max-h-screen max-w-screen transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
-                    <div class="transition duration-300 ease-in-out background hover:bg-light-black-layout top-0 right-0 h-96 max-w-screen rounded-md">
+            <div id='hover-photo-5' class='z-50 mb-5 rounded-md overflow-hidden mx-auto max-w-xl '>
+                <div class='bg-photo-5 bg-center bg-no-repeat bg-cover mx-auto max-w-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
+                    <div class="transition duration-300 ease-in-out background hover:bg-light-black-layout top-0 right-0 mx-auto max-w-xl rounded-md">
                         <div id='text-photo-5' class='pt-48 h-96 invisible'>
                             <div class='text-white text-center font-semibold text-gray-300 font-sans'>UI Elements, media</div>
                             <div class='font-title text-white text-2xl text-center'>Console Activity</div>
@@ -126,9 +126,9 @@ function Caroussel() {
                     </div>
                 </div>
             </div>
-            <div id='hover-photo-6' class='z-50 mb-5 rounded-md overflow-hidden max-h-screen'>
-                <div class='bg-photo-6 bg-center bg-no-repeat bg-cover max-h-screen max-w-screen transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
-                    <div class="transition duration-300 ease-in-out background hover:bg-light-black-layout top-0 right-0 h-96 max-w-screen rounded-md">
+            <div id='hover-photo-6' class='z-50 mb-5 rounded-md overflow-hidden mx-auto max-w-xl '>
+                <div class='bg-photo-6 bg-center bg-no-repeat bg-cover mx-auto max-w-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
+                    <div class="transition duration-300 ease-in-out background hover:bg-light-black-layout top-0 right-0 mx-auto max-w-xl rounded-md">
                         <div id='text-photo-6' class='pt-48 h-96 invisible'>
                             <div class='text-white text-center font-semibold text-gray-300 font-sans'>Illustrations, Graphics</div>
                             <div class='font-title text-white text-2xl text-center'>Shake it !</div>

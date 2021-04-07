@@ -39,7 +39,7 @@ function Creative() {
 
     return (
         <div>
-            <div class='mx-5 mb-20 pt-12'>
+            <div class='mx-5 mb-20 pt-12 max-w-lg mx-auto'>
                 <div class=' m-auto rounded-full w-20 bg-lightest-red mb-4'>
                     <img class='w-24 p-5' src={team} style={{filter:'invert(100%) sepia(0%) saturate(2%) hue-rotate(329deg) brightness(111%) contrast(101%)'}}/>
                 </div>

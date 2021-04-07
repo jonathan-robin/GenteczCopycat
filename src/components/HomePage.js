@@ -13,25 +13,28 @@ import screen from '../media/about_buss.png';
 
 function HomePage() {
     return (
-        <>
-        <div class='h-96 bg-red overflow-hidden'>
-            <div class='bg-fond static bg-cover h-3/5 overflow-hidden absolute top-0 left-0 w-full' style={{backgroundImage: `url(${homeImage2})`}}></div>
-            <div class='text-white absolute font-medium font-title top-32 left-4 text-2xl'>We are Creative & Digital Agency .</div>
-            <div class='text-gray-200 leading-1 absolute font-light font-sans top-44 left-4 text-1xl mr-4'>It is a long established fact that a reader will be distracted by the readable content of a page 
+        <div>
+        <div class='h-96 lg:h-screen overflow-hidden '>
+            <div class='bg-fond static pl-4 bg-cover absolute top-0 h-1/2 lg:h-screen overflow-hidden w-full' style={{backgroundImage: `url(${homeImage2})`}}>
+                <div class='mx-auto max-w-lg md:max-w-xl  md:ml-12 lg:max-w-3xl lg:ml-auto'>
+            <div class=' mt-16 pb-6 text-white font-medium font-title md:text-3xl text-2xl lg:mt-60 lg:text-5xl'>We are Creative & Digital Agency .</div>
+            <div class='text-gray-200 pr-2 leading-1 font-light font-sans md:text-xl text-md lg:max-w-4xl'>It is a long established fact that a reader will be distracted by the readable content of a page 
             when looking at its layout readable English.</div> 
-            <button class='bg-light-red py-3 px-8 rounded-3xl text-white font-sans top-72 left-4 absolute text-sm hover:bg-red'>GET STARTED</button>   
+            <button class='flex float-left mt-10 bg-light-red py-3 px-8 rounded-3xl text-white font-sans text-sm hover:bg-red'>GET STARTED</button>   
+        </div></div>
         </div>
 
         <div class='relative h-96 flex justify-center'>
             <div class='absolute w-20 top-20 p-4 bg-lightest-red rounded-full'>
                 <img src={home} style={{filter:'invert(100%) sepia(0%) saturate(2%) hue-rotate(329deg) brightness(111%) contrast(101%)'}}/>
             </div>
-            <div class='absolute w-86 font-medium top-44 text-black font-title text-3xl'>What Can We Do <div class='inline text-red-light'>For You</div></div>
-            <div class='absolute w-100 px-2 font-light top-56 text-gray-400 font-sans text-md text-center'>It is a long established fact that a reader will be distracted by the 
+            <div class='absolute w-86 font-medium top-44 text-black font-title text-3xl max-w-96'>What Can We Do <div class='inline text-red-light'>For You</div></div>
+            <div class='absolute w-100 px-2 font-light top-56 text-gray-400 font-sans text-md text-center max-w-lg'>It is a long established fact that a reader will be distracted by the 
             readable content of a page when looking as its layout.</div>
         </div>
 
-        <div class='relative w-100 mx-4 border border-dotted border-gray border-w-4 px-6 py-8 h-60'>
+        <div class='mx-4'>
+        <div class='relative border border-dotted border-gray border-w-4 px-6 py-8 h-60 max-w-xl mx-auto'>
             <img src={ampoule} style={{filter: 'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}} class='ml-4 h-10 w-10'/>
             <div class='absolute w-100 px-2 font-light mr-4 top-24 text-black font-title text-2xl'>
                 Creative Design
@@ -41,7 +44,7 @@ function HomePage() {
             </div>
         </div>
 
-        <div class='mt-4 relative w-100 mx-4 border border-dotted border-gray border-w-4 px-6 py-8 h-60'>
+        <div class='mt-4 relative border border-dotted border-gray border-w-4 px-6 py-8 h-60 max-w-xl mx-auto'>
             <img src={square} style={{filter: 'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}} class='ml-4 h-8 w-8'/>
             <div class='absolute w-100 px-2 font-light mr-4 top-24 text-black font-title text-2xl'>
                 We Make Best Result
@@ -51,7 +54,7 @@ function HomePage() {
             </div>
         </div>
 
-        <div class='mt-4 relative w-100 mx-4 border border-dotted border-gray border-w-4 px-6 py-8 h-60'>
+        <div class='mt-4 relative border border-dotted border-gray border-w-4 px-6 py-8 h-60 max-w-xl mx-auto'>
             <img src={monitor} style={{filter: 'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}} class='ml-4 h-8 w-8'/>
             <div class='absolute w-100 px-2 font-light mr-4 top-24 text-black font-title text-2xl'>
                 Best Platform
@@ -60,8 +63,9 @@ function HomePage() {
             readable content of a page when looking as its layout.
             </div>
         </div>
+        </div>
 
-        <div class='mt-5 w-100 px-3 py-8 h-60'>
+        <div class='mt-5 w-100 px-3 py-8 h-60 max-w-lg mx-auto'>
             <div class='w-100 px-2 mr-4 text-black font-title text-2xl'>
                 We Are Digital Business Agency.
             </div>
@@ -115,10 +119,10 @@ function HomePage() {
                 <button class='bg-light-red hover:bg-red px-9 py-3 text-white text-md'>KNOW MORE</button>
             </div>
             <div class='absolute top-24'>
-                <img src={screen} class='p-4 text-white text-md'/>
+                <img src={screen} class='p-4 text-white text-md max-h-60'/>
             </div>
         </div>
-        </>
+        </div>
     )
 }
 

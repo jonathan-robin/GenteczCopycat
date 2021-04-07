@@ -17,6 +17,32 @@ module.exports = {
       'black-footer':'#2e3234'
       
     }),
+    animation: {
+      'anim':'wiggle 3s forwards',
+      'unAnim':'wiggle 3s forwards',
+    },
+    keyframes: {
+      wiggle: {
+        '0%': { backgoundColor: 'white' },
+        '50%': { backgoundColor: 'transparent' },
+      }
+    },
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
     borderColor: theme => ({
       ...theme('colors'),
        DEFAULT: theme('colors.gray.300', 'currentColor'),
