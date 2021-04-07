@@ -22,10 +22,10 @@
 }
 
 .anim{ 
-    animation:animNav 2s forwards;
+    animation:animNav 0.5s forwards;
 }
 .unAnim{ 
-    animation:unAnimNav 2s forwards;
+    animation:unAnimNav 0.5s forwards;
 }
 @keyframes animNav{
     from{
