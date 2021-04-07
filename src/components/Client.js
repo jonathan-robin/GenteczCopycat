@@ -8,7 +8,7 @@ import dropbox from '../media/dropbox.png';
 
 function Client() {
     return (
-        <div class="w-full mb-20 bg-white shadow-sm rounded-2xl">
+        <div class="w-100 max-w-md mx-auto mb-20 bg-white shadow-sm rounded-2xl ">
             <div class='w-28 p-2 pt-12 m-auto'>
                 <img src={market}/>
             </div>

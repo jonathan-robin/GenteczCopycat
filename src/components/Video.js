@@ -10,15 +10,15 @@ import molecular from '../media/molecular.svg';
 
 function Video() {
     return (
-        <>
+        <div >
         <div class='max-w-full mb-12'>
                 <div class='bg-fixed bg-office-layout bg-no-repeat bg-center h-96 max-w-screen'>
                      <div class='bg-black-layout top-0 right-0 h-96 max-w-screen'>
-                    <div class='pt-16'>
-                         <div class='text-white text-3xl text-center font-light font-title'>Video Presentation</div>
-                         <div class='mt-2 font-sans text-white text-center'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+                    <div class='pt-16 mx-4'>
+                         <div class='text-white text-3xl text-center font-light font-title mb-8 max-w-lg mx-auto'>Video Presentation</div>
+                         <div class='mt-2 font-sans text-white text-center max-w-lg mx-auto'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
                         
-                         <div class='mt-16 w-20 m-auto bg-lightest-red rounded-full'>
+                         <div class='mt-6 w-20 m-auto bg-lightest-red rounded-full'>
                              <img src={play} class='w-20 p-8' style={{filter:'invert(100%) sepia(0%) saturate(2%) hue-rotate(329deg) brightness(111%) contrast(101%)'}}/>
                          </div>
                          </div>
@@ -26,7 +26,8 @@ function Video() {
                 </div>
             </div>
 
-            <div class='mx-5 mb-20 pt-8'>
+<div class='max-w-lg mx-auto'>
+            <div class='mx-5 mb-20 pt-8 '>
                 <div class=' m-auto rounded-full w-20 bg-lightest-red mb-4'>
                     <img class='w-24 p-4' src={liste} style={{filter:'invert(100%) sepia(0%) saturate(2%) hue-rotate(329deg) brightness(111%) contrast(101%)'}}/>
                 </div>
@@ -94,7 +95,8 @@ function Video() {
                 </div>
             </div>
             <button class=' mt-4 bg-light-red hover:bg-red px-9 py-3 font-light text-white text-md ml-12'>VIEW MORE FEATURES</button>
-            </>
+            </div>
+            </div>
     )
 }
 

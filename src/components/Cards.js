@@ -3,7 +3,7 @@ import fleche from '../media/fleche-droite.svg';
 
 function Cards() {
     return (
-        <div>
+        <div class='max-w-md mx-auto'>
             <div class='mt-24 mx-4 rounded-xl leading h-64 px-14 py-12 bg-green-pastel m-auto'>
                 <div class='text-white text-2xl font-title text-semibold pb-4'>
                     Branding
@@ -11,7 +11,7 @@ function Cards() {
                 <div class='text-white text-md font-sans font-light pb-4'>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa consectetuer adipiscing.
                 </div>
-                <div class='m-auto p-4 rounded-full -mt-4 bg-white w-14'><img src={fleche} class='w-12 m-auto' style={{filter:'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}}/>
+                <div class='m-auto p-4 rounded-full -mt-2 bg-white w-14'><img src={fleche} class='w-12 m-auto' style={{filter:'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}}/>
                 </div>
             </div>
             <div class='mt-4 mx-4 rounded-xl leading h-64 px-14 py-12 bg-purple-pastel m-auto'>
@@ -21,7 +21,7 @@ function Cards() {
                 <div class='text-white text-md font-sans font-light pb-4'>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa consectetuer adipiscing.
                 </div>
-                <div class='m-auto p-4 rounded-full -mt-4 bg-white w-14'><img src={fleche} class='w-12 m-auto' style={{filter:'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}}/>
+                <div class='m-auto p-4 rounded-full -mt-2 bg-white w-14'><img src={fleche} class='w-12 m-auto' style={{filter:'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}}/>
                 </div>
             </div>
             <div class='mt-4 mx-4 rounded-xl leading h-64 px-14 py-12 bg-lightest-red m-auto'>
@@ -31,7 +31,7 @@ function Cards() {
                 <div class='text-white text-md font-sans font-light pb-4'>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa consectetuer adipiscing.
                 </div>
-                <div class='m-auto p-4 rounded-full -mt-4 bg-white w-14'><img src={fleche} class='w-12 m-auto' style={{filter:'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}}/>
+                <div class='m-auto p-4 rounded-full -mt-2 bg-white w-14'><img src={fleche} class='w-12 m-auto' style={{filter:'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}}/>
                 </div>
             </div>
             <div class='flex justify-center'>

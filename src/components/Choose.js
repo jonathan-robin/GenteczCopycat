@@ -3,8 +3,8 @@ import business from '../media/business_choose.jpg';
 
 function Choose() {
     return (
-        <>
-                        <div class='h-20 pt-2 px-8 flex'>
+        <div class='max-w-lg mx-auto'>
+                        <div class='h-20 pt-2 px-8 flex '>
                 <div class='rounded-full h-12 w-12 bg-light-red text-white text-2xl pt-1 font-semibold text-center'>3</div>
                 <div class='ml-8 h-12 mt-1 text-black text-xl pt-1 font-normal text-center font-title'>Responsive Design</div>
             </div>
@@ -18,7 +18,7 @@ function Choose() {
 
 
 
- </>
+ </div>
     )
 }
 
