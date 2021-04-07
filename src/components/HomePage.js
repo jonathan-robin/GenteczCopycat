@@ -15,7 +15,7 @@ function HomePage() {
     return (
         <>
         <div class='h-96 bg-red overflow-hidden'>
-            <div class='bg-fond static bg-cover h-3/6 overflow-hidden absolute top-0 left-0 w-full' style={{backgroundImage: `url(${homeImage2})`}}></div>
+            <div class='bg-fond static bg-cover h-3/5 overflow-hidden absolute top-0 left-0 w-full' style={{backgroundImage: `url(${homeImage2})`}}></div>
             <div class='text-white absolute font-medium font-title top-32 left-4 text-2xl'>We are Creative & Digital Agency .</div>
             <div class='text-gray-200 leading-1 absolute font-light font-sans top-44 left-4 text-1xl mr-4'>It is a long established fact that a reader will be distracted by the readable content of a page 
             when looking at its layout readable English.</div> 
@@ -74,7 +74,7 @@ function HomePage() {
         </div>
 
 
-        <div class='h-20 relative flex justify-center'>
+        <div class='h-20 relative mt-14 flex justify-center'>
             <div class='absolute w-12'>
                 <img src={montgolfiere} style={{filter:'invert(46%) sepia(42%) saturate(2742%) hue-rotate(320deg) brightness(110%) contrast(101%)'}}/>
             </div>

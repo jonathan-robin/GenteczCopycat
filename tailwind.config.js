@@ -14,6 +14,7 @@ module.exports = {
       'light-black-layout': 'rgba(20, 20, 20, 0.8)',
       'green-pastel' : '#34C5B8',
       'purple-pastel': '#5668F8', 
+      'black-footer':'#2e3234'
       
     }),
     borderColor: theme => ({
@@ -24,6 +25,7 @@ module.exports = {
      }),
     backgroundImage: theme => ({ 
       'working-layout' : "url('./media/working-layout.jpg')",
+      'writing-layout' : "url('./media/writing.jpg')",
       'office-layout' : "url('./media/office.jpg')",
       'working-people' : "url('./media/working-people.jpg')",
       'business-choose':"url('./media/business_choose.jpg')",

@@ -16,6 +16,8 @@ function Choose() {
 
         <div class='w-full h-92 mb-20'><img src={business} class='p-4 m-auto'/></div>
 
+
+
  </>
     )
 }

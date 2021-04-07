@@ -13,11 +13,11 @@ function Portfolio() {
             </div>
             <div class='row mt-5'>
                 <ul class='mx-16 text-center'>
-                    <li class='inline-block px-6 py-2 rounded-md m-2 hover:bg-lightest-red hover:text-white cursor-pointer font-semibold'>ALL</li>
-                    <li class='inline-block px-6 py-2 rounded-md m-2 hover:bg-lightest-red hover:text-white cursor-pointer font-semibold'>SEO</li>
-                    <li class='inline-block px-6 py-2 rounded-md m-2 hover:bg-lightest-red hover:text-white cursor-pointer font-semibold'>WEBDESIGN</li>
-                    <li class='inline-block px-6 py-2 rounded-md m-2 hover:bg-lightest-red hover:text-white cursor-pointer font-semibold'>WORK</li>
-                    <li class='inline-block px-6 py-2 rounded-md m-2 hover:bg-lightest-red hover:text-white cursor-pointer font-semibold'>WORDPRESS</li>
+                    <li class='inline-block px-4 py-2 rounded-md m-2 hover:bg-lightest-red hover:text-white cursor-pointer font-semibold'>ALL</li>
+                    <li class='inline-block px-4 py-2 rounded-md m-2 hover:bg-lightest-red hover:text-white cursor-pointer font-semibold'>SEO</li>
+                    <li class='inline-block px-4 py-2 rounded-md m-2 hover:bg-lightest-red hover:text-white cursor-pointer font-semibold'>WEBDESIGN</li>
+                    <li class='inline-block px-4 py-2 rounded-md m-2 hover:bg-lightest-red hover:text-white cursor-pointer font-semibold'>WORK</li>
+                    <li class='inline-block px-4 py-2 rounded-md m-2 hover:bg-lightest-red hover:text-white cursor-pointer font-semibold'>WORDPRESS</li>
                 </ul>
             </div>
         </div>

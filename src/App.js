@@ -13,6 +13,10 @@ import Avis from './components/Avis';
 import Choose from './components/Choose';
 import Creative from './components/Creative';
 import Pricing from './components/Pricing';
+import Numbers from './components/Numbers';
+import Post from './components/Post';
+import Question from './components/Question';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -35,6 +39,10 @@ function App() {
         <Choose />
         <div class="bg-white"><Creative /></div>
         <Pricing />
+        <Numbers/>
+        <div class="bg-white"><Post />
+        <Question /></div>
+        <Footer/>
     </>
   );
 }
