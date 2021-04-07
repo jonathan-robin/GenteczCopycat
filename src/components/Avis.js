@@ -46,10 +46,10 @@ function Avis() {
     })
     
     return (
-        <div class='mt-20 h-screen'>
+        <div class='mt-20 h-screen mb-10'>
             <div class='bg-fixed bg-working-people bg-no-repeat bg-center h-3/5 max-w-screen'>
                 <div class='bg-black-layout top-0 right-0 h-full max-w-screen w-full flex justify-center'>  
-                    <div class='h-96 w-full mx-auto my-auto'>
+                    <div class='h-96 w-full mx-auto my-auto inputAvis'>
                         <input type='radio' name='radio-btn' id='radio1'/>
                         <input type='radio' name='radio-btn' id='radio2'/>
                         <input type='radio' name='radio-btn' id='radio3'/>
@@ -164,7 +164,7 @@ function Avis() {
             </div>
             <div class='h-20 pt-2 px-8 flex'>
                 <div class='rounded-full h-12 w-12 bg-light-red text-white text-2xl pt-1 font-semibold text-center'>2</div>
-                <div class='ml-8 h-12 mt-1 text-black text-xl pt-1 font-normal text-center font-title'>SSL Certificate</div>
+                <div class='ml-8 h-12 text-black text-xl pt-1 font-normal text-center font-title'>SSL Certificate</div>
             </div>
 
             </div>

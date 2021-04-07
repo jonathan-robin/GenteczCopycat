@@ -7,7 +7,7 @@
 #radio1:checked ~ #testimonial .oneAnimation{
     animation:glisse 16s infinite;
 }
-input{display:none;}
+.inputAvis input{display:none;}
 #radio2:checked ~ #testimonial .oneAnimation{
     animation:none;
     animation: glisseTo2 2s ease-in-out;
@@ -20,6 +20,66 @@ input{display:none;}
     transition:transform 2s ease-in-out;
     animation:glisse3 16s infinite;
 }
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  .numbers{
+    animation: counter 5s forwards ease-in-out;
+    counter-reset: num var(--num);
+}
+.numbers2{
+    animation: counter2 5s forwards ease-in-out;
+    counter-reset: num var(--num);
+}
+.numbers3{
+    animation: counter3 5s forwards ease-in-out;
+    counter-reset: num var(--num);
+}
+.numbers4{
+    animation: counter4 5s forwards ease-in-out;
+    counter-reset: num var(--num);
+}
+  .numbers::after,.numbers2::after,.numbers3::after,.numbers4::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter{
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 654;
+    }
+  }
+  
+  @keyframes counter2{
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 6400;
+    }
+  }
+  @keyframes counter3{
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 2389;
+    }
+  }
+  @keyframes counter4{
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 653;
+    }
+  }
+
 @keyframes glisse3 { 
     0%{
         transform:translateX(-200vw); 
