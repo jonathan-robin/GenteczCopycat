@@ -4,7 +4,7 @@ import layout from '../media/working-layout.jpg'
 function Parallax() {
     return (
         <>
-        <div class='max-w-full lg:-mb-44 lg:h-screen'>
+        <div class='max-w-full lg:-mb-72 lg:h-screen'>
                 <div class='bg-fixed bg-working-layout bg-no-repeat bg-center h-96 max-w-screen lg:h-4/6'>
                      <div class='bg-black-layout top-0 right-0 h-96 max-w-screen lg:h-full'>
                     <div class='pt-16 px-4'>

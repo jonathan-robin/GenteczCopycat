@@ -14,13 +14,16 @@
     transform:translateX(-100vw);
     animation:glisse4 16s infinite;
 }
+
 #radio3:checked ~ #testimonial .oneAnimation{
     animation:none;
     transform:translateX(-200vw);
     transition:transform 2s ease-in-out;
     animation:glisse3 16s infinite;
 }
-
+html{ 
+    scroll-behavior: smooth;
+}
 .anim{ 
     animation:animNav 0.5s forwards;
 }
@@ -76,7 +79,14 @@
       --num: 654;
     }
   }
-
+@keyframes bounce{
+    from{
+        height:4rem;
+    }
+    to{ 
+        height:24rem;
+    }
+}
 
   @keyframes counter2{
     from {

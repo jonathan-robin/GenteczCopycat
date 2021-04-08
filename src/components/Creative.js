@@ -38,7 +38,7 @@ function Creative() {
 })
 
     return (
-        <div>
+        <div id='Team'>
             <div class='mx-5 mb-20 pt-12 max-w-lg mx-auto'>
                 <div class=' m-auto rounded-full w-20 bg-lightest-red mb-4'>
                     <img class='w-24 p-5' src={team} style={{filter:'invert(100%) sepia(0%) saturate(2%) hue-rotate(329deg) brightness(111%) contrast(101%)'}}/>
@@ -47,6 +47,7 @@ function Creative() {
                 <div class='text-center font-sans text-sm text-gray-500 mb-4'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
             </div>
 
+<div class='lg:flex'>
             <div class='h-1/3 mb-12 w-full text-center'>
                 <img class='h-96 m-auto w-96 mb-6' src={ceo1}/>
             <div class='pb-3 font-title font-semibold font-title'>Mr. Charles Ricketts</div>
@@ -108,6 +109,7 @@ function Creative() {
                 <div class='h-8 w-8 transition duration-500 ease-in-out hover:bg-red cursor-pointer mx-4'>
                     <img class='inline p-2' id='instagramHover' style={{filter: "invert(52%) sepia(0%) saturate(1469%) hue-rotate(218deg) brightness(102%) contrast(93%)"}} src={instagram}/>
                 </div>
+            </div>
             </div>
             </div>
         </div>
