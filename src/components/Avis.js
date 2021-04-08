@@ -46,7 +46,7 @@ function Avis() {
     })
     
     return (
-        <div class='mt-20 h-screen mb-10'>
+        <div id='Clients' class='mt-20 h-screen -mb-72'>
             <div class='bg-fixed bg-working-people bg-no-repeat bg-center h-3/5 max-w-screen'>
                 <div class='bg-black-layout top-0 right-0 h-full max-w-screen w-full flex justify-center'>  
                     <div class='h-96 w-full mx-auto my-auto inputAvis'>
@@ -58,7 +58,7 @@ function Avis() {
             
                                 <div class='w-screen' id='active1-div' >
                                     <div class='m-auto mt-4 bg-man1 bg-no-repeat bg-center bg-cover border-white border-4 rounded-full h-28 w-28'></div> 
-                                    <div class='pt-8 text-sm mx-6 mr-12 text-white font-normal text-center font-sans '>
+                                    <div class='pt-8 text-sm mx-6 mr-12 text-white font-normal text-center font-sans lg:max-w-xl lg:mx-auto'>
                                         "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
                                         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
                                     </div> 
@@ -81,7 +81,7 @@ function Avis() {
 
                                 <div class='w-screen'>
                                     <div class='m-auto mt-4 bg-man2 bg-no-repeat bg-center bg-cover border-white border-4 rounded-full h-28 w-28'></div> 
-                                    <div class='pt-8 text-sm mx-6 mr-12 text-white font-normal text-center font-sans'>
+                                    <div class='pt-8 text-sm mx-6 mr-12 text-white font-normal text-center font-sans lg:max-w-xl lg:mx-auto'>
                                         "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
                                         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
                                     </div> 
@@ -104,7 +104,7 @@ function Avis() {
 
                                 <div class='w-screen '>
                                     <div class='m-auto mt-4 bg-woman1 bg-no-repeat bg-center bg-cover border-white border-4 rounded-full h-28 w-28'></div> 
-                                    <div class='pt-8 text-sm mx-6 mr-12 text-white font-normal text-center font-sans'>
+                                    <div class='pt-8 text-sm mx-6 mr-12 text-white font-normal text-center font-sans lg:max-w-xl lg:mx-auto'>
                                         "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
                                         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
                                     </div> 
@@ -156,18 +156,9 @@ function Avis() {
                         </div>
                     </div>
                 </div>
-                <div class='max-w-lg mx-auto'>
-            <div class='mt-16 px-4 text-2xl text-black font-normal'>Why Choose Us...</div>
-            <div class='mt-4 px-4 text-sm text-gray-500 font-light'>Sed ut perspicatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam inventore veritatis et quasi architecto beatae explicabo.</div>
-            <div class='h-28 pb-2 pt-8 px-8 flex'>
-                <div class='rounded-full h-12 w-12 bg-light-red text-white text-2xl pt-1 font-semibold text-center'>1</div>
-                <div class='ml-8 h-12 mt-1 text-black text-xl pt-1 font-normal text-center font-title'>Your branding</div>
-            </div>
-            <div class='h-20 pt-2 px-8 flex'>
-                <div class='rounded-full h-12 w-12 bg-light-red text-white text-2xl pt-1 font-semibold text-center'>2</div>
-                <div class='ml-8 h-12 text-black text-xl pt-1 font-normal text-center font-title'>SSL Certificate</div>
-            </div>
-            </div>
+
+    
+
             </div>
         </div>
         )

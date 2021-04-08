@@ -6,8 +6,8 @@ import justify from "../media/justify.svg";
 
 function Pricing() {
     return (
-        <div class='mb-16 max-w-lg mx-auto'>
-                <div class='mx-5 mb-20 pt-12'>
+        <div id='Pricing' class='mb-16 max-w-lg mx-auto lg:max-w-6xl'>
+                <div class='mx-5 mb-20 pt-12 lg:max-w-xl lg:mx-auto'>
                 <div class=' m-auto rounded-full w-20 bg-lightest-red mb-4'>
                     <img class='w-24 p-5' src={tag} style={{filter:'invert(100%) sepia(0%) saturate(2%) hue-rotate(329deg) brightness(111%) contrast(101%)'}}/>
                 </div>
@@ -15,7 +15,8 @@ function Pricing() {
                 <div class='text-center font-sans text-sm text-gray-500 mb-4'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
             </div>
 
-            <div class='h-2/3 bg-white pb-8 mx-4 rounded shadow-lg'>
+<div class='lg:flex lg:justify-center lg:max-w-6xl'>
+            <div class='h-2/3 bg-white pb-8 mx-4 rounded shadow-lg lg:mt-4'>
                 <div class='justify-center flex text-2xl font-title pt-8'>Basic Plan</div>
                 <div class='justify-center text-center mx-20 flex text-gray-400 text-m pt-3'>It is a long established fact that a reader will be distracted.</div>
                 <div class='justify-center flex text-gray-400 text-m mt-6 h-12'>
@@ -75,6 +76,7 @@ function Pricing() {
                     <span class='text-sm font-bold mt-6'>/Mo</span>
                 </div>
                 <button class='justify-center flex bg-light-red text-white text-sm mx-auto mt-9 text-normal rounded-full px-8 py-3 font-normal'>GET PURCHASE</button>
+            </div>
             </div>
         </div>
 

@@ -3,7 +3,7 @@ import camera from '../media/camera.svg';
 
 function Services() {
     return (
-        <div class='max-w-md mx-auto '>
+        <div id='Services' class='max-w-md mx-auto'>
             <div class='relative h-72 flex justify-center'>
                 <div class='absolute w-20 top-20 p-4 bg-lightest-red rounded-full'>
                     <img src={camera} style={{filter:'invert(100%) sepia(0%) saturate(2%) hue-rotate(329deg) brightness(111%) contrast(101%)'}}/>

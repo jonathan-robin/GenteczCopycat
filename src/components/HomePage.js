@@ -13,7 +13,7 @@ import screen from '../media/about_buss.png';
 
 function HomePage() {
     return (
-        <div>
+        <div id='Home'>
         <div class='h-96 lg:h-screen overflow-hidden'>
             <div class='bg-fond static pl-4 bg-cover absolute top-0 h-1/2 lg:h-screen overflow-hidden w-full' style={{backgroundImage: `url(${homeImage2})`}}>
                 <div class='mx-auto max-w-lg md:max-w-xl  md:ml-12 lg:max-w-3xl lg:ml-auto'>
@@ -24,7 +24,7 @@ function HomePage() {
         </div></div>
         </div>
 
-        <div class='relative h-96 flex justify-center'>
+        <div id='firstDiv' class='relative h-96 flex justify-center'>
             <div class='absolute w-20 top-20 p-4 bg-lightest-red rounded-full'>
                 <img src={home} style={{filter:'invert(100%) sepia(0%) saturate(2%) hue-rotate(329deg) brightness(111%) contrast(101%)'}}/>
             </div>
@@ -117,7 +117,7 @@ function HomePage() {
             </div>
             </div>
 
-            <div class='absolute top-24 lg:relative lg:-top-80 lg:float-right lg:-mt-96'>
+            <div class='relative flex -mt-60 justify-center lg:relative lg:-top-80 lg:float-right lg:-mt-96'>
                 <img src={screen} class='p-4 text-white text-md max-h-60 lg:h-72 lg:max-h-96 '/>
             </div>
         </div>
