@@ -9,6 +9,24 @@ function Navigation() {
 
     const [isScroll, setIsScroll] = useState(false);
 
+    useEffect(() => { 
+        if (window.innerWidth >= 1024){ 
+            document.getElementById('navBar').style.animation = 'animNav 2s forwards'; 
+            document.getElementById('menu').style.display = 'flex'; 
+            $('#nav-Items').addClass('hidden');
+            $('#firstDiv').removeClass('-mt-80');
+            $('#navBar').removeClass('h-96');
+            $('#navBar').removeClass('h-16');
+            $('#navBar').addClass('h-20');
+        }
+        else{
+            document.getElementById('navBar').style.animation = 'unAnimNav 0.5s forwards'; 
+            document.getElementById('menu').style.display = 'none'; 
+            $('#navBar').removeClass('h-20');
+            $('#navBar').addClass('h-16');
+        }
+    },[])
+
     var handleClickNav = (data) => { 
         document.getElementById(data).scrollIntoView();
     }
